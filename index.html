@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>lingo.inc</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap">
-  <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
-      background-color: #f5e8d4;
-    }
-    img.section {
-      width: 100%;
-      display: block;
-    }
-  </style>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap + FontAwesome -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YLK11PRKX2"></script>
 <script>
@@ -29,59 +26,264 @@
 
   gtag('config', 'G-YLK11PRKX2');
 </script>
+
+
+
+
 <body>
 
-  <!-- Hero / Landing -->
-  <div class="hero-section">
-    <nav class="navbar navbar-expand-lg navbar-light px-4">
-      <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="#" alt="logo" width="30" class="me-2">
-        <span class="fs-4">lingo.inc</span>
-      </a>
-      <div class="collapse navbar-collapse justify-content-center">
-        <ul class="navbar-nav gap-4">
-          <li class="nav-item"><a class="nav-link active fw-bold text-decoration-underline" href="#">home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">our work</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">contact us</a></li>
-        </ul>
-      </div>
-      <div class="d-flex">
-        <a href="#" class="btn btn-outline-dark fw-bold">login <i class="fas fa-arrow-right ms-1"></i></a>
-      </div>
-    </nav>
+  <div class="LandingPage">
+    <div class="hero-section">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light px-4">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="assets/images/logo.png" alt="" width="30" class="me-2" />
+          <span class="fs-4">lingo.inc</span>
+        </a>
+        <div class="collapse navbar-collapse justify-content-center">
+          <ul class="navbar-nav gap-4">
+            <li class="nav-item"><a class="nav-link active" href="#">home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">our work</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">contact us</a></li>
+          </ul>
+        </div>
+        <div class="d-flex">
+          <a href="#" class="btn btn-outline-dark fw-bold">login <i class="fas fa-arrow-right ms-1"></i></a>
+        </div>
+      </nav>
 
-    <div class="container py-5 position-absolute top-50 left-10">
-      <div class="row align-items-center">
-        <div class="col-md-6 text-center text-md-start">
-          <a href="#" class="btn contact-btn mt-4">Contact us</a>
+      <!-- Main Text Section -->
+      <div class="container py-5 position-absolute top-50 start-0 translate-middle-y ps-5">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-start">
+            <p class="welcome-text">welcome to</p>
+            <h1 class="brand-text">lingo.inc</h1>
+            <a href="#" class="btn contact-btn mt-4">Contact us</a>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="social-icons position-absolute top-50 end-0 pe-3 d-flex flex-column gap-3">
-      <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
-      <a href="#"><i class="fab fa-tiktok fa-lg"></i></a>
-      <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+      <!-- Social Media Icons -->
+      <div class="social-icons position-absolute top-50 end-0 translate-middle-y pe-3 d-flex flex-column gap-3">
+        <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="#"><i class="fab fa-tiktok fa-lg"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+      </div>
     </div>
   </div>
 
-  <!-- Queue CTA -->
-  <img class="section" src="assets/sections/queue.png" alt="Queue Call To Action">
+  <div class="SecondPart">
+        <p>interested in getting your story out?</p>
+        <h1>get a queue now!</h1>
+        <a href="">click here!</a>
+  </div>
 
-  <!-- Services -->
-  <img class="section" src="assets/sections/services.png" alt="Services Section">
+  <div class="ThirdPart">
+  <div class="editing-images">
+  <a href="https://example.com/photoshop" target="_blank">
+    <img src="assets/images/photo1.png" alt="Photoshop">
+  </a>
+  <a href="https://example.com/video-editing" target="_blank">
+    <img src="assets/images/photo2.png" alt="Video Editing">
+  </a>
+  <a href="https://example.com/photography" target="_blank">
+    <img src="assets/images/photo3.png" alt="Photography">
+  </a>
+  <a href="https://example.com/design" target="_blank">
+    <img src="assets/images/photo4.png" alt="Design">
+  </a>
+</div>
+        <h1>Editing capabilities <br>& Services</h1>
 
-  <!-- Work -->
-  <img class="section" src="assets/sections/work.png" alt="Our Work Section">
+        <p>Di Lingo.inc, kami percaya setiap momen 
+          <br>berharga layak untuk diceritakan dengan 
+          <br>visual yang kuat dan memukau. Dengan 
+          <br>keahlian dalam editing video, fotografi,
+          <br>dan produksi iklan kreatif, kami siap
+          <br>membantu brand Anda tampil lebih 
+          <br>menonjol dan berkesan. Percayakan 
+          <br>cerita Anda pada tangan profesional 
+          <br>kami. Hubungi kami hari ini dan
+          <br>wujudkan karya visual terbaik Anda 
+          <br>bersama Lingo.inc!</p>
+  </div>
 
-  <!-- Clients -->
-  <img class="section" src="assets/sections/z.png" alt="Our Clients Section">
 
-  <!-- Footer -->
-  <img class="section" src="assets/sections/zz.png" alt="Footer Section">
+  <section class="our-work-section">
+  <h2>Our Work</h2>
+  <p>you’ve probably seen us on:</p>
+
+  <div class="our-work-gallery">
+<div class="our-work-item">
+  <img src="assets/images/samsung.png" 
+       data-static="assets/images/samsung.png" 
+       data-gif="assets/images/samsung.gif" 
+       alt="Samsung" />
+</div>
+
+<div class="our-work-item">
+  <img src="assets/images/nike.png" 
+       data-static="assets/images/nike.png" 
+       data-gif="assets/images/nike.gif" 
+       alt="Nike" />
+</div>
+<div class="our-work-item">
+  <img src="assets/images/uniqlo.png" 
+       data-static="assets/images/uniqlo.png" 
+       data-gif="assets/images/uniqlo.gif" 
+       alt="uniqlo" />
+</div>
+<div class="our-work-item">
+  <img src="assets/images/asus.png" 
+       data-static="assets/images/asus.png" 
+       data-gif="assets/images/asus.gif" 
+       alt="asus" />
+</div>
+<div class="our-work-item">
+  <img src="assets/images/apple.png" 
+       data-static="assets/images/apple.png" 
+       data-gif="assets/images/apple.gif" 
+       alt="apple" />
+</div>
+<div class="our-work-item">
+  <img src="assets/images/yamaha.png" 
+       data-static="assets/images/yamaha.png" 
+       data-gif="assets/images/yamaha.gif" 
+       alt="yamaha" />
+</div>
+<div class="our-work-item">
+  <img src="assets/images/acer.png" 
+       data-static="assets/images/acer.png" 
+       data-gif="assets/images/acer.gif" 
+       alt="acer" />
+</div>
+  </div>
+
+   <div class="our-work-gallery">
+<div class="our-work-item">
+  <img src="assets/images/samsung.png" 
+       data-static="assets/images/samsung.png" 
+       data-gif="assets/images/samsung.gif" 
+       alt="Samsung" />
+</div>
+
+<div class="our-work-item">
+  <img src="assets/images/nike.png" 
+       data-static="assets/images/nike.png" 
+       data-gif="assets/images/nike.gif" 
+       alt="Nike" />
+</div>
+<div class="our-work-item">
+  <img src="assets/images/uniqlo.png" 
+       data-static="assets/images/uniqlo.png" 
+       data-gif="assets/images/uniqlo.gif" 
+       alt="uniqlo" />
+</div>
+<div class="our-work-item">
+  <img src="assets/images/asus.png" 
+       data-static="assets/images/asus.png" 
+       data-gif="assets/images/asus.gif" 
+       alt="asus" />
+</div>
+<div class="our-work-item">
+  <img src="assets/images/apple.png" 
+       data-static="assets/images/apple.png" 
+       data-gif="assets/images/apple.gif" 
+       alt="apple" />
+</div>
+<div class="our-work-item">
+  <img src="assets/images/yamaha.png" 
+       data-static="assets/images/yamaha.png" 
+       data-gif="assets/images/yamaha.gif" 
+       alt="yamaha" />
+</div>
+<div class="our-work-item">
+  <img src="assets/images/acer.png" 
+       data-static="assets/images/acer.png" 
+       data-gif="assets/images/acer.gif" 
+       alt="acer" />
+</div>
+  </div>
+
+  <div class="scroll-indicator"></div>
+  <a href="#" class="full-view-btn">full view</a>
+</section>
+
+
+
+
+<script>
+  const gallery = document.querySelector('.our-work-gallery');
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+
+  gallery.addEventListener('mousedown', (e) => {
+    isDown = true;
+    gallery.classList.add('active');
+    startX = e.pageX - gallery.offsetLeft;
+    scrollLeft = gallery.scrollLeft;
+  });
+  gallery.addEventListener('mouseleave', () => {
+    isDown = false;
+  });
+  gallery.addEventListener('mouseup', () => {
+    isDown = false;
+  });
+  gallery.addEventListener('mousemove', (e) => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - gallery.offsetLeft;
+    const walk = (x - startX) * 1.5; //scroll-fast
+    gallery.scrollLeft = scrollLeft - walk;
+  });
+</script>
+
+<script>
+  document.querySelectorAll('.our-work-item img').forEach(img => {
+    const staticSrc = img.getAttribute('data-static');
+    const gifSrc = img.getAttribute('data-gif');
+
+    img.addEventListener('mouseenter', () => {
+      img.src = gifSrc;
+    });
+
+    img.addEventListener('mouseleave', () => {
+      img.src = staticSrc;
+    });
+  });
+</script>
+
+
+
+<footer class="site-footer">
+  <div class="footer-row">
+    
+    <!-- Left -->
+    <div class="footer-col footer-left">
+      <p>lingo.inc</p>
+      <p>Condong catur,<br>Depok</p>
+      <div class="footer-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <!-- Center -->
+    <div class="footer-col footer-center">
+      <p>© 2025 lingo.inc</p>
+    </div>
+
+    <!-- Right -->
+    <div class="footer-col footer-right">
+      <p>contact us:</p>
+      <p><a href="mailto:lingo.inc.ind@gmail.com">lingo.inc.ind@gmail.com</a></p>
+    </div>
+
+  </div>
+</footer>
 
 </body>
 </html>
-
-
